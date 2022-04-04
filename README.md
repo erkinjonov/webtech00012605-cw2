@@ -1,5 +1,9 @@
 # 12605
 
+## Glitch https://tidal-feline-shawl.glitch.me/
+
+## Github https://github.com/wiut12605/webtech00012605-cw2/
+
 The project is made by a student (12605) to fulfill requirements of cw2 for webtechnology module at WIUT
 
 ## Instructions to run locally
