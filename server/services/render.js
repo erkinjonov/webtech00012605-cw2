@@ -2,10 +2,8 @@ const axios = require("axios");
 
 exports.homeRoutes = (req, res) => {
   // Make a get request to /api/users
-  const fullUrl = req.protocol + "://" + req.get("host") + req.originalUrl;
-  console.log(fullUrl);
   axios
-    .get(`${fullUrl}api/users`)
+    .get("http://localhost:3000/api/users")
     .then(function (response) {
       res.render("index", { users: response.data });
     })
@@ -19,9 +17,8 @@ exports.add_user = (req, res) => {
 };
 
 exports.update_user = (req, res) => {
-  const fullUrl = req.protocol + "://" + req.get("host") + req.originalUrl;
   axios
-    .get(`${fullUrl}api/users`, {
+    .get("http://localhost:3000/api/users", {
       params: { id: req.query.id },
     })
     .then(function (userdata) {
