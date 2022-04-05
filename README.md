@@ -12,7 +12,6 @@ run "npm install"
 
 Create config.env in the root folder of the project and include those lines
 
-PORT = 3000
 MONGO_URI = mongodb+srv://crystal13:wiut12605@cluster0.ofaur.mongodb.net/test?retryWrites=true&w=majority
 
 run "npm start" to run with nodemon
