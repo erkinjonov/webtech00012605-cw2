@@ -2,6 +2,8 @@
 
 ##My project is working fine locally, but when i deploy it to Glitch update and delete functions are not working, i tried and did my best but i couldn't why it's not working via Glitch. Please, evaluate local version. 
 
+##MongoDB cannot be accessed through WIUT internet provider, please try to check it with your own network.
+
 ## Glitch https://ruby-oceanic-break.glitch.me/
 
 ## Github https://github.com/wiut12605/webtech00012605-cw2/
